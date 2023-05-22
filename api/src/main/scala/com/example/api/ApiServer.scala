@@ -10,7 +10,7 @@ import com.example.api.GenService
 import pureconfig.ConfigSource
 import pureconfig.generic.auto._
 
-object GeneratorServer {
+object ApiServer {
 
   def run[F[_]: Async]: F[Nothing] = {
 
